@@ -22,3 +22,56 @@
         <a href="web4.0.html">Web 4.0</a>&#65372;
 
     </nav>
+
+    <title>Terminology:TCP/IP</title>   
+</head>
+<body>
+    <h1>TCP/IP</h1>
+    <p>
+        TCP/IP, which stands for Transmission Control Protocol/Internet Protocol, is a set of communication protocols used to interconnect devices on the internet. It was developed in the 1970s by Vint Cerf and Bob Kahn. TCP/IP provides a standardized way for computers to communicate and exchange data over networks, enabling the functioning of the internet as we know it today.
+    </p>
+    <p>
+        TCP/IP is a layered protocol suite that consists of four layers: the Application Layer, Transport Layer, Internet Layer, and Link Layer. Each layer has specific functions and responsibilities in the communication process.
+    </p>
+    <h2>Layers of TCP/IP</h2>
+    <ul>
+        <li><strong>Application Layer:</strong> This layer is responsible for providing network services to applications. It includes protocols such as HTTP, FTP, and SMTP that enable communication between applications and the network.</li>
+        <li><strong>Transport Layer:</strong> This layer ensures reliable data transfer between devices. It includes the Transmission Control Protocol (TCP) for connection-oriented communication and the User Datagram Protocol (UDP) for connectionless communication.</li>
+        <li><strong>Internet Layer:</strong> This layer is responsible for routing data packets across networks. It includes the Internet Protocol (IP) which assigns unique addresses to devices and handles packet forwarding.</li>
+        <li><strong>Link Layer:</strong> This layer is responsible for the physical transmission of data over a network. It includes protocols such as Ethernet and Wi-Fi that define how data is transmitted over different types of physical media.</li>
+    </ul>
+    <h2>Importance of TCP/IP</h2>
+    <p>
+        TCP/IP is the foundation of the internet and enables communication between devices across the globe. It allows for the seamless exchange of data and supports a wide range of applications and services. Without TCP/IP, the internet as we know it would not exist, and communication between devices would be limited to local networks.
+    </p>
+    <img src="images/tcpip.png" alt="TCP/IP" style="width: 400px;">
+</body>
+</html>
+
+<h2>How TCP/IP works</h2>
+<p> TCP/IP works by breaking down data into smaller packets and routing them across networks to their destination. Each packet contains information about its source and destination, allowing it to be properly delivered. The protocols within each layer handle the specific tasks required for communication, ensuring that data is transmitted reliably and efficiently across the internet.
+
+</p>
+<h2>Data Encapsulation Process</h2>
+<p>
+    A key concept of TCP/IP is data encapsulation, where data is wrapped with
+     protocol information at each layer. When a user sends data from an application,
+      it goes through the following process:
+
+</p>
+<ul>
+    <li> The Application Layer adds application-specific headers to the data.</li>
+    <li> The Transport Layer adds transport headers, including TCP or UDP information.</li>
+    <li> The Internet Layer adds IP headers, including source and destination IP addresses.</li>
+    <li> The Link Layer adds link headers for physical transmission over the network.</li>
+</ul>
+<p>
+    As the data travels through the layers, it is encapsulated with the necessary protocol information. When it reaches its destination, the process is reversed, and the data is decapsulated to retrieve the original information sent by the user.
+</p>
+<h2>Why is it the Standard?</h2>
+<p> TCP/IP is the standard because it provides a reliable
+     and efficient way to communicate across networks.
+      It is open-source and widely supported, making it easy for developers to implement and for
+       devices to connect. Additionally, its layered architecture allows for flexibility and scalability, 
+       enabling it to adapt to new technologies and applications as they emerge.
+</p>
